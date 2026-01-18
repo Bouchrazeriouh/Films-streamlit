@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon="🎬",
     layout="wide"
 )
-conn = sqlite3.connect("data.db")
+conn = sqlite3.connect("/tmp/data.db")
 cursor = conn.cursor() 
 # Titre principal
 st.title("🎬 Base de Données de Films")
