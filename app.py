@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon="🎬",
     layout="wide"
 )
-conn = sqlite3.connect(DB_PATH, check_same_thread=False )
+conn = sqlite3.connect(DB_PATH, check_same_thread=False)
 cursor = conn.cursor() 
 
 # Titre principal
